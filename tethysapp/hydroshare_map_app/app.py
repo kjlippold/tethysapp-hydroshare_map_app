@@ -8,11 +8,11 @@ class HydroshareMapApp(TethysAppBase):
 
     name = 'HydroShare Map App'
     index = 'hydroshare_map_app:home'
-    icon = 'hydroshare_map_app/images/icon.gif'
+    icon = 'hydroshare_map_app/images/globe.png'
     package = 'hydroshare_map_app'
     root_url = 'hydroshare-map-app'
-    color = '#f39c12'
-    description = 'This app can display HydroShare geospatiaial feature and raster data on a map.'
+    color = '#87CEEB'
+    description = 'This app can display HydroShare geospatial feature data on a map.'
     tags = 'GIS, HydroShare'
     enable_feedback = False
     feedback_emails = []
